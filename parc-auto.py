@@ -402,7 +402,7 @@ elif meniu == "Vehicule":
 
             with col1:
                 nr = st.text_input("Numar inmatriculare *").upper().strip()
-               *marca = st.text_input("Marca")
+               marca = st.text_input("Marca")
    *            model = st.text_input(*Model")
                 an_fabrica*ie = st.number_input("An fabricati*", min_value=1950, max_value=2100,*value=2024)
                 vin = *t.text_input("Serie sasiu / VIN").*pper().strip()
